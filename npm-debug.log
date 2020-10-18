@@ -1,0 +1,466 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', 'mocha' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mocha
+8 silly fetchNamedPackageData mocha
+9 silly mapToRegistry name mocha
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/mocha
+13 verbose request uri https://registry.npmjs.org/mocha
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 16:47:49
+16 verbose request id b8d21dba9561fdff
+17 verbose etag W/"648fe139849a92b83d036099af30a07c"
+18 verbose lastModified Fri, 16 Oct 2020 21:11:35 GMT
+19 http request GET https://registry.npmjs.org/mocha
+20 http 304 https://registry.npmjs.org/mocha
+21 verbose headers { date: 'Sun, 18 Oct 2020 11:17:50 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=d4898d65da96d10142d66e8d939cb86e31603019870; expires=Tue, 17-Nov-20 11:17:50 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '5e41daefe9012e36-BOM',
+21 verbose headers   age: '3393',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"648fe139849a92b83d036099af30a07c"',
+21 verbose headers   'last-modified': 'Fri, 16 Oct 2020 21:11:35 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-request-id': '05dd0729ee00002e36e889b000000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sun, 18 Oct 2020 11:17:50 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=d4898d65da96d10142d66e8d939cb86e31603019870; expires=Tue, 17-Nov-20 11:17:50 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '5e41daefe9012e36-BOM',
+22 silly get     age: '3393',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"648fe139849a92b83d036099af30a07c"',
+22 silly get     'last-modified': 'Fri, 16 Oct 2020 21:11:35 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-request-id': '05dd0729ee00002e36e889b000000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/mocha from cache
+24 verbose get saving mocha to /home/nawas/.npm/registry.npmjs.org/mocha/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule mocha@8.2.0 checking installable status
+38 silly cache add args [ 'mocha', null ]
+39 verbose cache add spec mocha
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'mocha',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'mocha',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed mocha@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for mocha
+43 info addNameTag [ 'mocha', 'latest' ]
+44 silly mapToRegistry name mocha
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/mocha
+48 verbose addNameTag registry:https://registry.npmjs.org/mocha not in flight; fetching
+49 verbose get https://registry.npmjs.org/mocha not expired, no request
+50 silly addNameTag next cb for mocha with tag latest
+51 silly addNamed mocha@8.2.0
+52 verbose addNamed "8.2.0" is a plain semver version for mocha
+53 silly cache afterAdd mocha@8.2.0
+54 verbose afterAdd /home/nawas/.npm/mocha/8.2.0/package/package.json not in flight; writing
+55 verbose afterAdd /home/nawas/.npm/mocha/8.2.0/package/package.json written
+56 silly fetchNamedPackageData @ungap/promise-all-settled
+57 silly mapToRegistry name @ungap/promise-all-settled
+58 silly mapToRegistry scope (from package name) @ungap
+59 verbose mapToRegistry no registry URL found in name for scope @ungap
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/@ungap%2fpromise-all-settled
+63 silly fetchNamedPackageData ansi-colors
+64 silly mapToRegistry name ansi-colors
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/ansi-colors
+68 silly fetchNamedPackageData browser-stdout
+69 silly mapToRegistry name browser-stdout
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/browser-stdout
+73 silly fetchNamedPackageData chokidar
+74 silly mapToRegistry name chokidar
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/chokidar
+78 silly fetchNamedPackageData diff
+79 silly mapToRegistry name diff
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/diff
+83 silly fetchNamedPackageData escape-string-regexp
+84 silly mapToRegistry name escape-string-regexp
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+88 silly fetchNamedPackageData find-up
+89 silly mapToRegistry name find-up
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/find-up
+93 silly fetchNamedPackageData growl
+94 silly mapToRegistry name growl
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/growl
+98 silly fetchNamedPackageData he
+99 silly mapToRegistry name he
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/he
+103 silly fetchNamedPackageData log-symbols
+104 silly mapToRegistry name log-symbols
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/log-symbols
+108 silly fetchNamedPackageData nanoid
+109 silly mapToRegistry name nanoid
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/nanoid
+113 silly fetchNamedPackageData serialize-javascript
+114 silly mapToRegistry name serialize-javascript
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry uri https://registry.npmjs.org/serialize-javascript
+118 silly fetchNamedPackageData strip-json-comments
+119 silly mapToRegistry name strip-json-comments
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/strip-json-comments
+123 silly fetchNamedPackageData supports-color
+124 silly mapToRegistry name supports-color
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+128 silly fetchNamedPackageData which
+129 silly mapToRegistry name which
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/which
+133 silly fetchNamedPackageData workerpool
+134 silly mapToRegistry name workerpool
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/workerpool
+138 silly fetchNamedPackageData yargs
+139 silly mapToRegistry name yargs
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry uri https://registry.npmjs.org/yargs
+143 silly fetchNamedPackageData yargs-parser
+144 silly mapToRegistry name yargs-parser
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry uri https://registry.npmjs.org/yargs-parser
+148 silly fetchNamedPackageData yargs-unparser
+149 silly mapToRegistry name yargs-unparser
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/yargs-unparser
+153 verbose request uri https://registry.npmjs.org/browser-stdout
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 16:47:51
+156 verbose etag W/"ad7ee1c0c8f38e2f2bef40d5d7f48977"
+157 verbose lastModified Sat, 26 May 2018 19:02:02 GMT
+158 http request GET https://registry.npmjs.org/browser-stdout
+159 verbose request uri https://registry.npmjs.org/@ungap%2fpromise-all-settled
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 16:47:51
+162 verbose etag W/"2cdb74871b650d32d4a6d967a197e67a"
+163 verbose lastModified Tue, 21 Jul 2020 14:49:27 GMT
+164 http request GET https://registry.npmjs.org/@ungap%2fpromise-all-settled
+165 verbose request uri https://registry.npmjs.org/ansi-colors
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 16:47:51
+168 verbose etag W/"f58fd59c3e565badf5cb5555e551e8cc"
+169 verbose lastModified Wed, 03 Jul 2019 05:13:22 GMT
+170 http request GET https://registry.npmjs.org/ansi-colors
+171 verbose request uri https://registry.npmjs.org/chokidar
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 16:47:51
+174 verbose etag W/"e7af6cdd2db037ac5b1cd9d7239f29d9"
+175 verbose lastModified Tue, 13 Oct 2020 11:05:02 GMT
+176 http request GET https://registry.npmjs.org/chokidar
+177 verbose request uri https://registry.npmjs.org/diff
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 16:47:51
+180 verbose etag W/"5bf3d5faa1a3c628a13248b9c3b48b39"
+181 verbose lastModified Mon, 13 Jan 2020 04:49:07 GMT
+182 http request GET https://registry.npmjs.org/diff
+183 verbose request uri https://registry.npmjs.org/find-up
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 16:47:51
+186 verbose etag W/"7efcc9106bbd81c79b5f5b6a403472de"
+187 verbose lastModified Tue, 11 Aug 2020 18:44:29 GMT
+188 http request GET https://registry.npmjs.org/find-up
+189 verbose request uri https://registry.npmjs.org/escape-string-regexp
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 16:47:51
+192 verbose etag W/"98a43dfdee742a829ad75e9f364dcdc5"
+193 verbose lastModified Thu, 23 Apr 2020 07:31:29 GMT
+194 http request GET https://registry.npmjs.org/escape-string-regexp
+195 verbose request uri https://registry.npmjs.org/growl
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 16:47:51
+198 verbose etag W/"03a81d3279ea8d2a06fb68c7d68a18c7"
+199 verbose lastModified Sun, 27 May 2018 02:48:49 GMT
+200 http request GET https://registry.npmjs.org/growl
+201 verbose request uri https://registry.npmjs.org/he
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 16:47:51
+204 verbose etag W/"c39dcd127e6c6a5df91dd908ef025079"
+205 verbose lastModified Fri, 04 Jan 2019 02:45:18 GMT
+206 http request GET https://registry.npmjs.org/he
+207 verbose request uri https://registry.npmjs.org/serialize-javascript
+208 verbose request no auth needed
+209 info attempt registry request try #1 at 16:47:51
+210 verbose etag W/"b4b949fa21c5b28c05796b24deab12ad"
+211 verbose lastModified Thu, 10 Sep 2020 12:53:23 GMT
+212 http request GET https://registry.npmjs.org/serialize-javascript
+213 verbose request uri https://registry.npmjs.org/strip-json-comments
+214 verbose request no auth needed
+215 info attempt registry request try #1 at 16:47:51
+216 verbose etag W/"0657494e03e5f4cc23d8394eed1cdbe3"
+217 verbose lastModified Sun, 12 Jul 2020 14:45:00 GMT
+218 http request GET https://registry.npmjs.org/strip-json-comments
+219 verbose request uri https://registry.npmjs.org/supports-color
+220 verbose request no auth needed
+221 info attempt registry request try #1 at 16:47:51
+222 verbose etag W/"5954fb2f51e454f1d1aec68eee2231db"
+223 verbose lastModified Fri, 28 Aug 2020 11:17:39 GMT
+224 http request GET https://registry.npmjs.org/supports-color
+225 verbose request uri https://registry.npmjs.org/which
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 16:47:51
+228 verbose etag W/"0cf763dd6f9a465542ea7a70e062cb04"
+229 verbose lastModified Mon, 18 Nov 2019 22:26:18 GMT
+230 http request GET https://registry.npmjs.org/which
+231 verbose request uri https://registry.npmjs.org/workerpool
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 16:47:51
+234 verbose etag W/"197603da2a348e8ae19581d48eb99863"
+235 verbose lastModified Sat, 03 Oct 2020 10:50:07 GMT
+236 http request GET https://registry.npmjs.org/workerpool
+237 verbose request uri https://registry.npmjs.org/nanoid
+238 verbose request no auth needed
+239 info attempt registry request try #1 at 16:47:51
+240 verbose etag W/"4a46fcb1b0694a96dc8fffbdff1ea62e"
+241 verbose lastModified Wed, 29 Jul 2020 23:03:52 GMT
+242 http request GET https://registry.npmjs.org/nanoid
+243 verbose request uri https://registry.npmjs.org/log-symbols
+244 verbose request no auth needed
+245 info attempt registry request try #1 at 16:47:51
+246 verbose etag W/"634e5b71b2f63109b5089d7f7184007b"
+247 verbose lastModified Sun, 26 Apr 2020 10:47:39 GMT
+248 http request GET https://registry.npmjs.org/log-symbols
+249 verbose request uri https://registry.npmjs.org/yargs-parser
+250 verbose request no auth needed
+251 info attempt registry request try #1 at 16:47:51
+252 verbose etag W/"d59798a30198020ff90ec58943d3f995"
+253 verbose lastModified Fri, 16 Oct 2020 15:45:19 GMT
+254 http request GET https://registry.npmjs.org/yargs-parser
+255 verbose request uri https://registry.npmjs.org/yargs-unparser
+256 verbose request no auth needed
+257 info attempt registry request try #1 at 16:47:51
+258 verbose etag W/"9793c0883936c22610f7230a3fcd0300"
+259 verbose lastModified Fri, 02 Oct 2020 00:21:44 GMT
+260 http request GET https://registry.npmjs.org/yargs-unparser
+261 verbose request uri https://registry.npmjs.org/yargs
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 16:47:51
+264 verbose etag W/"a4375234a85bb970a0ab3e634123647c"
+265 verbose lastModified Fri, 16 Oct 2020 00:15:20 GMT
+266 http request GET https://registry.npmjs.org/yargs
+267 http 304 https://registry.npmjs.org/browser-stdout
+268 verbose headers { date: 'Sun, 18 Oct 2020 11:17:51 GMT',
+268 verbose headers   connection: 'keep-alive',
+268 verbose headers   'set-cookie':
+268 verbose headers    [ '__cfduid=da3ea3eb999c11cc64f292bff2f67c7b81603019871; expires=Tue, 17-Nov-20 11:17:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+268 verbose headers   'cf-ray': '5e41daf39b132e36-BOM',
+268 verbose headers   age: '3084',
+268 verbose headers   'cache-control': 'public, max-age=300',
+268 verbose headers   etag: '"ad7ee1c0c8f38e2f2bef40d5d7f48977"',
+268 verbose headers   'last-modified': 'Sat, 26 May 2018 19:02:02 GMT',
+268 verbose headers   vary: 'Accept-Encoding',
+268 verbose headers   'cf-cache-status': 'HIT',
+268 verbose headers   'cf-request-id': '05dd072c3d00002e362d153000000001',
+268 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+268 verbose headers   server: 'cloudflare' }
+269 silly get cb [ 304,
+269 silly get   { date: 'Sun, 18 Oct 2020 11:17:51 GMT',
+269 silly get     connection: 'keep-alive',
+269 silly get     'set-cookie':
+269 silly get      [ '__cfduid=da3ea3eb999c11cc64f292bff2f67c7b81603019871; expires=Tue, 17-Nov-20 11:17:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+269 silly get     'cf-ray': '5e41daf39b132e36-BOM',
+269 silly get     age: '3084',
+269 silly get     'cache-control': 'public, max-age=300',
+269 silly get     etag: '"ad7ee1c0c8f38e2f2bef40d5d7f48977"',
+269 silly get     'last-modified': 'Sat, 26 May 2018 19:02:02 GMT',
+269 silly get     vary: 'Accept-Encoding',
+269 silly get     'cf-cache-status': 'HIT',
+269 silly get     'cf-request-id': '05dd072c3d00002e362d153000000001',
+269 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+269 silly get     server: 'cloudflare' } ]
+270 verbose etag https://registry.npmjs.org/browser-stdout from cache
+271 verbose get saving browser-stdout to /home/nawas/.npm/registry.npmjs.org/browser-stdout/.cache.json
+272 silly resolveWithNewModule browser-stdout@1.3.1 checking installable status
+273 silly cache add args [ 'browser-stdout@1.3.1', null ]
+274 verbose cache add spec browser-stdout@1.3.1
+275 silly cache add parsed spec Result {
+275 silly cache add   raw: 'browser-stdout@1.3.1',
+275 silly cache add   scope: null,
+275 silly cache add   name: 'browser-stdout',
+275 silly cache add   rawSpec: '1.3.1',
+275 silly cache add   spec: '1.3.1',
+275 silly cache add   type: 'version' }
+276 silly addNamed browser-stdout@1.3.1
+277 verbose addNamed "1.3.1" is a plain semver version for browser-stdout
+278 silly mapToRegistry name browser-stdout
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/browser-stdout
+282 verbose addNameVersion registry:https://registry.npmjs.org/browser-stdout not in flight; fetching
+283 verbose get https://registry.npmjs.org/browser-stdout not expired, no request
+284 silly cache afterAdd browser-stdout@1.3.1
+285 verbose afterAdd /home/nawas/.npm/browser-stdout/1.3.1/package/package.json not in flight; writing
+286 verbose afterAdd /home/nawas/.npm/browser-stdout/1.3.1/package/package.json written
+287 http 304 https://registry.npmjs.org/diff
+288 verbose headers { date: 'Sun, 18 Oct 2020 11:17:51 GMT',
+288 verbose headers   connection: 'keep-alive',
+288 verbose headers   'set-cookie':
+288 verbose headers    [ '__cfduid=dc0c1c7382f16f85939c73ac261903d9a1603019871; expires=Tue, 17-Nov-20 11:17:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+288 verbose headers   'cf-ray': '5e41daf6593d2e58-BOM',
+288 verbose headers   age: '3084',
+288 verbose headers   'cache-control': 'public, max-age=300',
+288 verbose headers   etag: '"5bf3d5faa1a3c628a13248b9c3b48b39"',
+288 verbose headers   'last-modified': 'Mon, 13 Jan 2020 04:49:07 GMT',
+288 verbose headers   vary: 'Accept-Encoding',
+288 verbose headers   'cf-cache-status': 'HIT',
+288 verbose headers   'cf-request-id': '05dd072dfc00002e589d0f8000000001',
+288 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+288 verbose headers   server: 'cloudflare' }
+289 silly get cb [ 304,
+289 silly get   { date: 'Sun, 18 Oct 2020 11:17:51 GMT',
+289 silly get     connection: 'keep-alive',
+289 silly get     'set-cookie':
+289 silly get      [ '__cfduid=dc0c1c7382f16f85939c73ac261903d9a1603019871; expires=Tue, 17-Nov-20 11:17:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+289 silly get     'cf-ray': '5e41daf6593d2e58-BOM',
+289 silly get     age: '3084',
+289 silly get     'cache-control': 'public, max-age=300',
+289 silly get     etag: '"5bf3d5faa1a3c628a13248b9c3b48b39"',
+289 silly get     'last-modified': 'Mon, 13 Jan 2020 04:49:07 GMT',
+289 silly get     vary: 'Accept-Encoding',
+289 silly get     'cf-cache-status': 'HIT',
+289 silly get     'cf-request-id': '05dd072dfc00002e589d0f8000000001',
+289 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+289 silly get     server: 'cloudflare' } ]
+290 verbose etag https://registry.npmjs.org/diff from cache
+291 verbose get saving diff to /home/nawas/.npm/registry.npmjs.org/diff/.cache.json
+292 http 304 https://registry.npmjs.org/@ungap%2fpromise-all-settled
+293 verbose headers { date: 'Sun, 18 Oct 2020 11:17:51 GMT',
+293 verbose headers   connection: 'keep-alive',
+293 verbose headers   'set-cookie':
+293 verbose headers    [ '__cfduid=d45311a8ec1566eae98325da5c4ab82851603019871; expires=Tue, 17-Nov-20 11:17:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+293 verbose headers   'cf-ray': '5e41daf64f1a31b1-BOM',
+293 verbose headers   age: '3082',
+293 verbose headers   'cache-control': 'public, max-age=300',
+293 verbose headers   etag: '"2cdb74871b650d32d4a6d967a197e67a"',
+293 verbose headers   'last-modified': 'Tue, 21 Jul 2020 14:49:27 GMT',
+293 verbose headers   vary: 'Accept-Encoding',
+293 verbose headers   'cf-cache-status': 'HIT',
+293 verbose headers   'cf-request-id': '05dd072dea000031b177080000000001',
+293 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+293 verbose headers   server: 'cloudflare' }
+294 silly get cb [ 304,
+294 silly get   { date: 'Sun, 18 Oct 2020 11:17:51 GMT',
+294 silly get     connection: 'keep-alive',
+294 silly get     'set-cookie':
+294 silly get      [ '__cfduid=d45311a8ec1566eae98325da5c4ab82851603019871; expires=Tue, 17-Nov-20 11:17:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+294 silly get     'cf-ray': '5e41daf64f1a31b1-BOM',
+294 silly get     age: '3082',
+294 silly get     'cache-control': 'public, max-age=300',
+294 silly get     etag: '"2cdb74871b650d32d4a6d967a197e67a"',
+294 silly get     'last-modified': 'Tue, 21 Jul 2020 14:49:27 GMT',
+294 silly get     vary: 'Accept-Encoding',
+294 silly get     'cf-cache-status': 'HIT',
+294 silly get     'cf-request-id': '05dd072dea000031b177080000000001',
+294 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+294 silly get     server: 'cloudflare' } ]
+295 verbose etag https://registry.npmjs.org/@ungap%2fpromise-all-settled from cache
+296 verbose get saving @ungap/promise-all-settled to /home/nawas/.npm/registry.npmjs.org/_40ungap_252fpromise-all-settled/.cache.json
+297 silly resolveWithNewModule diff@4.0.2 checking installable status
+298 silly cache add args [ 'diff@4.0.2', null ]
+299 verbose cache add spec diff@4.0.2
+300 silly cache add parsed spec Result {
+300 silly cache add   raw: 'diff@4.0.2',
+300 silly cache add   scope: null,
+300 silly cache add   name: 'diff',
+300 silly cache add   rawSpec: '4.0.2',
+300 silly cache add   spec: '4.0.2',
+300 silly cache add   type: 'version' }
+301 silly addNamed diff@4.0.2
+302 verbose addNamed "4.0.2" is a plain semver version for diff
+303 silly mapToRegistry name diff
+304 silly mapToRegistry using default registry
+305 silly mapToRegistry registry https://registry.npmjs.org/
+306 silly mapToRegistry uri https://registry.npmjs.org/diff
+307 verbose addNameVersion registry:https://registry.npmjs.org/diff not in flight; fetching
+308 verbose get https://registry.npmjs.org/diff not expired, no request
+309 verbose stack Error: Missing required argument #1
+309 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+309 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+309 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+309 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+309 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+309 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+309 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+309 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+309 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+309 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+310 verbose cwd /var/www/html/goodbits
+311 error Linux 5.3.0-62-generic
+312 error argv "/usr/bin/node" "/usr/bin/npm" "i" "mocha"
+313 error node v8.10.0
+314 error npm  v3.5.2
+315 error code EMISSINGARG
+316 error typeerror Error: Missing required argument #1
+316 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+316 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+316 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+316 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+316 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+316 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+316 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+316 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+316 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+316 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+317 error typeerror This is an error with npm itself. Please report this error at:
+317 error typeerror     <http://github.com/npm/npm/issues>
+318 verbose exit [ 1, true ]

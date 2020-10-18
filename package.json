@@ -1,0 +1,30 @@
+{
+  "name": "good-bits-interview",
+  "version": "1.0.0",
+  "description": "Demonstartion of Node REST API with OAuth 2.0 Client Credentials",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "author": "Nawas",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@okta/jwt-verifier": "0.0.12",
+    "axios": "^0.20.0",
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "dotenv": "^6.0.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.16.3",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.2",
+    "util": "^0.11.0"
+  },
+  "devDependencies": {
+    "should": "^13.2.3",
+    "standard": "^11.0.1",
+    "supertest": "^5.0.0"
+  }
+}
